@@ -13,9 +13,9 @@ Optimization 방법론중에 대표적인 알고리즘은 Gradient Descent 방�
 다른 방법론들에 대해서 다루도록 하겠다.
 
 
-'''python
+```python
 def func()"
-'''
+```
 
 ## Gradient Descent (경사 하강법)
 
