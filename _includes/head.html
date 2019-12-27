@@ -1,8 +1,9 @@
 <head>
 
-  <script type="text/javascript" async 
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="Pr7rgXgHY5Dfwv8h12rThYO11WStBfPNAraLYQsfHvc" />
